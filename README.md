@@ -32,7 +32,7 @@ And throw in data connection changes (wifi to 3G to 4G to...) and you'll find th
 mod_ping:
 
 I tried to implement mod_ping on a 10 second interval.
-https://git.process-one.net/ejabberd/mainline/blobs/raw/v2.1.11/doc/guide.html#htoc51 
+http://www.process-one.net/docs/ejabberd/guide_en.html#htoc51
 But as the documentation states, the ping will wait 32 seconds for a response before disconnecting the user. 
 This means there will be a 42 second window where the user can lose their messages.
 

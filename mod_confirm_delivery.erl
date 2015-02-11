@@ -12,10 +12,10 @@
 
 %% included for writing to ejabberd log file
 -include("ejabberd.hrl").
+-include("logger.hrl").
 
 -record(session, {sid, usr, us, priority, info}).
 -record(offline_msg, {us, timestamp, expire, from, to, packet}).
-
 -record(confirm_delivery, {messageid, timerref}).
 
 start(_Host, _Opt) -> 

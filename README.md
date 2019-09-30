@@ -7,7 +7,7 @@ Assuming xep-0184 has been setup client side, this module will wait for a respon
 If no responce is received in 10 seconds, the module will resend the message (this might be overkill) 
 and save the message offline.
 
-As long as the client can handle duplicae messages this technique seems to work fine.
+As long as the client can handle duplicate messages this technique seems to work fine.
 
 This came from a question I posted on stackoverflow:
 http://stackoverflow.com/questions/17424254/ejabberd-online-status-when-user-loses-connection/22606829#22606829
